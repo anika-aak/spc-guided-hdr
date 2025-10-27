@@ -1,0 +1,36 @@
+# === DATASETS & OUTPUTS ===
+Low_Resolution_Training_1024x512/
+outputs/
+*.hdr
+*.png
+*.jpg
+
+# === PYTHON CACHE FILES ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# === VENV / ENVIRONMENTS ===
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+
+# === JUPYTER & LOGS ===
+.ipynb_checkpoints/
+*.log
+
+# === IDE / EDITOR SETTINGS ===
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# === MISC ===
+# ignore large temp results
+*.pt
+*.pth
+*.tar

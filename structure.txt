@@ -1,0 +1,36 @@
+SPC Guided HDR/
+│
+├── models/
+│   ├── feature_extractors.py
+│   └── decoder.py
+│
+├── utils/
+│   ├── common.py
+│   ├── dataset.py
+│   ├── save_intermediate.py
+│   ├── metrics.py
+│   └── viz.py
+│
+├── outputs/                     ← created automatically when you run
+│
+├── taskA_feature_extract.ipynb
+├── taskB_decode_eval.ipynb
+│
+└── Low_Resolution_Training_1024x512/
+    ├── GT_HDR_1024x512_test_png/
+    ├── GT_HDR_1024X512_train_png/
+    ├── HDR_data_1024x512_test_hdr/
+    ├── HDR_data_1024x512_train_hdr/
+    ├── Testing_1024x512/
+    │   ├── SPC_512x256_test_png/
+    │   ├── SPC_data_512x256_test_4_frames_hdr/
+    │   └── dynamic_exposures_test_png_1024x512/
+    │
+    └── Training_1024x512/
+        ├── SPC_512x256_train_png/
+        ├── CMOS_sat_1024x512/
+        └── SPC_data_512x256_train_4_frames_hdr/
+
+        
+
+    

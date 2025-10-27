@@ -1,0 +1,21 @@
+# Core Python & Torch dependencies
+torch>=2.2.0
+torchvision>=0.17.0
+torchaudio>=2.2.0
+
+# Image I/O and processing
+Pillow>=10.0.0
+opencv-python>=4.9.0.80
+
+# Data and utilities
+numpy>=1.25.0
+tqdm>=4.66.0
+matplotlib>=3.8.0
+scikit-image>=0.22.0
+
+# Optional but useful for experimentation / visualization
+jupyterlab>=4.0.0
+ipykernel>=6.29.0
+
+# Project organization / file handling
+pathlib
